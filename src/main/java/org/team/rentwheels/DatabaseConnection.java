@@ -3,9 +3,9 @@ import java.sql.*;
 
 public final class DatabaseConnection {
     private static Connection connection;
-    private static final String dbName="RentWheels";
-    private static final String dbUserName="root";
-    private static final String dbPassword="root";
+    private static final String dbName="";
+    private static final String dbUserName="";
+    private static final String dbPassword="";
     private static final String url="jdbc:mysql://localhost/" +dbName;
 
     public DatabaseConnection() {
